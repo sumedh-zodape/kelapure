@@ -1,4 +1,5 @@
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Description = () => {
     return (
@@ -30,20 +31,19 @@ const Description = () => {
                         
                         <div className="space-y-4 text-gray-500 text-base sm:text-lg" style={{ fontWeight: 400, fontFamily:  '"Nunito Sans", sans-serif' }}>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur. Integer vel habitasse faucibus eget et 
-                                pellentesque odio tristique consequat. Fermentum porttitor tristique viverra pretium 
-                                habitant pulvinar. Semper amet tempus cras sed. Tempus tortor nulla tellus ut ac.
+                                At Kelapure, we blend tradition and innovation to bring you spices that are pure, flavorful, and full of aroma. Our meticulous sourcing and processing ensure that every product meets the highest standards of quality, so you can enjoy authentic taste in every meal.
                             </p>
                             <p className="mt-5">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In molestiae laborum impedit 
-                                exercitationem id delectus ipsam! Voluptate id at totam.
+                                Experience the difference with our carefully curated range—crafted for those who value freshness, trust, and a passion for great food. Discover why chefs and families alike choose Kelapure for their kitchens.
                             </p>
                         </div>
 
                         <div className="flex">
+                            <Link to="/about">
                             <button className="mt-6 bg-[#fe0000] text-white font-medium px-10 py-2 rounded-full border-2 border-transparent hover:bg-transparent hover:border-red-600 hover:text-red-600 transition duration-300 flex items-center justify-between gap-3" style={{fontFamily:  '"Nunito Sans", sans-serif'}}>
                                 Know More <FaArrowRightLong className="text-xl" />
                             </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

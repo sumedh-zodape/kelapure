@@ -23,10 +23,7 @@ const Footer = () => {
         <div className="space-y-6">
           <img src="/footerLogo.png" alt="Footer Logo" className="w-40" />
           <p className="text-sm text-gray-200">
-            Lorem ipsum dolor sit amet consectetur. Lobortis sapien aliquet nec
-            nunc sed diam sagittis nec amet. Interdum faucibus sodales fermentum
-            nullam accumsan venenatis. Auctor tristique purus sed ultrices
-            sollicitudin pulvinar eu bibendum.
+            Kelapure Satvik Food LLP is dedicated to delivering authentic, high-quality spices and food products that bring the true taste of tradition to your kitchen. Experience purity, freshness, and a passion for excellence in every blend we offer.
           </p>
           <div className="flex gap-4 text-lg">
             <a href="#"><FaFacebookF className="hover:text-blue-400" /></a>
@@ -81,8 +78,16 @@ const Footer = () => {
       </div>
 
       {/* Bottom Strip */}
-      <div className="text-center py-4 text-sm">
-        <h3 className="font-semibold">Product of Bharat 🇮🇳</h3>
+      <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 py-4 border-t border-gray-700 bg-black bg-opacity-60">
+        {/* <h3 className="font-semibold text-sm md:text-base text-white flex items-center gap-2">
+          Product of Bharat <span role="img" aria-label="India">🇮🇳</span>
+        </h3> */}
+        {/* <span className="hidden md:inline-block text-gray-400">|</span> */}
+        <p className="text-xs md:text-sm text-gray-300 flex items-center gap-1">
+          &copy; 2025 <span className="font-semibold">Kelapure </span>. All rights reserved.
+          <span className="hidden md:inline-block mx-2">|</span>
+          <span>Maintained by <a href="https://vitric.in/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline font-semibold">ViTric Business Solution</a></span>
+        </p>
       </div>
     </footer>
   );

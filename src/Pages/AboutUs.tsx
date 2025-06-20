@@ -69,20 +69,21 @@ const AboutUs = () => {
                 Authentic flavor in every pinch.
               </h3>
               <p className="text-gray-700 mb-4 text-base leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur. Sed purus tortor
-                malesuada est turpis. Elit pharetra quis mauris ut tellus
-                faucibus non odio. Tempus risus sed aenean gravida. Integer ac
-                fermentum lorem ultrices dolor dictum venenatis. Lorem ipsum
-                dolor sit amet consectetur. Sed purus tortor malesuada est
-                turpis. Elit pharetra quis mauris ut tellus faucibus non odio.
-                Tempus risus sed aenean gravida. Integer ac fermentum lorem
-                ultrices dolor dictum venenatis.
+                At Kelapure, we are passionate about bringing the authentic taste
+                of tradition to your kitchen. With decades of expertise in sourcing
+                and blending the finest spices, we ensure every product delivers
+                purity, freshness, and bold flavor. Our commitment to quality
+                means that each pinch of our spices elevates your culinary
+                creations, making every meal a memorable experience for your
+                family and friends.
               </p>
               <p className="text-gray-700 text-base leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur. Sed purus tortor
-                malesuada est turpis. Elit pharetra quis mauris ut tellus
-                faucibus non odio. Tempus risus sed aenean gravida. Integer ac
-                fermentum lorem ultrices dolor dictum venenatis.
+                We believe in transparency, sustainability, and supporting local
+                farmers. From careful selection of raw ingredients to hygienic
+                packaging, our process is designed to preserve the natural aroma
+                and nutritional value of our spices. Join us on a journey of taste
+                and trust—experience the difference that true dedication and
+                heritage can make in every dish.
               </p>
             </div>
           </div>

@@ -48,7 +48,7 @@ const ContactForm = () => {
         </div>
 
         <p className="text-sm text-gray-600 font-medium">
-          Lorem ipsum dolor sit amet consectetur. Egestas elementum et eget arcu cursus. Dictum sed sed phasellus purus sapien.
+          Have a question, feedback, or want to know more about our products? Fill out the form or reach us directly—we’re here to help you with all your flavor needs. Our team will get back to you as soon as possible.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
@@ -112,6 +112,8 @@ const ContactForm = () => {
         <form
           onSubmit={handleSubmit}
           className="w-full md:w-1/2 p-6 flex flex-col gap-4 justify-center"
+          method="POST"
+          action="/contact-form-handler.php"
         >
           <h2 className="text-2xl font-bold">Get In Touch</h2>
 
@@ -169,6 +171,7 @@ const ContactForm = () => {
           <button
             type="submit"
             className="bg-red-600 text-white font-semibold py-2 rounded-full hover:bg-red-700 transition-all"
+            disabled={submitted}
           >
             SUBMIT
           </button>
